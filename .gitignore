@@ -1,0 +1,22 @@
+# Local Python runtimes and environments
+sherlock/runtime/
+sherlock/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Local build and test artifacts
+work/
+outputs/
+*.log
+$null
+
+# Upstream development automation not needed by this wrapper
+sherlock/.actor/
+sherlock/.github/
+sherlock/devel/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
